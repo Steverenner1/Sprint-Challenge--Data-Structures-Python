@@ -54,7 +54,7 @@ class RingBuffer:
             node = my_node.next
         else:
             node = self.storage.head
-        # looping through each node and appending the values
+        # looping through each of the 11 letter nodes and appending the values
         while node is not my_node:
             list_buffer_contents.append(node.value)
             if node.next is not None:
