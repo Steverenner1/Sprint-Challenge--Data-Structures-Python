@@ -45,6 +45,7 @@ class LinkedList:
   def reverse_list(self):
     # TO BE COMPLETED
     # Declare current node at start
+    # No tail attribute added (singly linked list)
     previous_node = None
     current_node = self.head
 
